@@ -44,6 +44,7 @@ You might occur problems in installing some of the python packages. You can inst
 
 
 <h4>References</h4>
+
 [1] von Schantz, A., Ehtamo, H., & Hostikka, S. (2020). The minimum time evacuation of a crowd using rescue guides: a scenario-based approach. manuscript.
 
 [2] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197.
