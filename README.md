@@ -12,9 +12,13 @@ The numerical evacuation simulation and its GUI is based on research assistant J
 The repository includes codes for NSGA-II, simulation and a graphical user interface (GUI). The folders in the repository:
 
 *crowddynamics-simulation contains files for running the GUI
+
 *crowddynamics-qtgui contains the files that build the GUI
+
 *crowddynamics contains all files for simulating the movement of a crowd
+
 *genetic algorithm includes files to run the combined numerical simulation and NSGA-II
+
 *misc includes files used in configuring the optimization problem
 
 The numerical evacuation simulations are implemented in Python and the NSGA-II is implemented in Python and Bash that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
