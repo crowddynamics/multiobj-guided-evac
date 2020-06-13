@@ -27,7 +27,7 @@ See the "readme.txt" file in each folder for a more detailed overview of the cod
 Using Linux is recommended. The code works at least on Ubuntu 16.04. Do the following steps to install the repository:
 
 * Install anaconda (https://docs.anaconda.com/anaconda/install/linux)
-* Set environment variables ´export PATH=/.../anaconda3/bin:$PATH´ and ´export PYTHONPATH=/.../anaconda3/bin:$PYTHONPATH´
+* Set environment variables "export PATH=/.../anaconda3/bin:$PATH" and ´export PYTHONPATH=/.../anaconda3/bin:$PYTHONPATH´
 * Clone the repository
 * On terminal run conda config --add channels conda-forge
 * Create a conda environment from the file crowddynamics/environment.yml
