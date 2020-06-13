@@ -4,6 +4,8 @@ Research code used in von Schantz, Ehtamo & Hostikka. (manuscript). <em>The mini
 
 The manuscript presents a procedure for solving the minimum time evacuation using rescue guides when accounting for different behavioral scenarios. The problem is formulated as a bi-objective scenario optimization problem, and it is solved with a combined numerical simulation and genetic algorithm (GA) procedure. The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with numerical simulations. This repository is its implementation. The numerical simulation model is the physics-inspired agent-based social force model. The GA is the Nondominated Sorting Genetic Algorithm II (NSGA-II) [1,2]. It is suited for solving bi-objective optimization problems; this repository includes my own implementation of it.
 
+<h4>Contents of repository</h4>
+
 The repository includes codes for NSGA-II, simulation and a graphical user interface (GUI). The folders in the repository:
 
     crowddynamics-simulation contains files for running the GUI
@@ -15,6 +17,9 @@ The repository includes codes for NSGA-II, simulation and a graphical user inter
 The numerical evacuation simulations are implemented in Python and the NSGA-II is implemented in Python and Bash that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
 
 See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder. The numerical evacuation simulation and its GUI is based on research assistant Jaan Tollander's codes https://github.com/jaantollander/crowddynamics and https://github.com/jaantollander/crowddynamics-qtgui, which he created when he was working in our research group in Aalto University School of Science, Department of Mathematics and Systems Analysis summers 2016 and 2017.
+
+
+<h4>Installing</h4>
 
 Using Linux is recommended. The code works at least on Ubuntu 16.04. Do the following steps to install the repository:
 
