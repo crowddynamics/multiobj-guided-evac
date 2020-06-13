@@ -19,7 +19,7 @@ The repository includes codes for NSGA-II, simulation and a graphical user inter
 
 The numerical evacuation simulations are implemented in Python and the NSGA-II is implemented in Python and Bash that were run on a high performance computing cluster. It should be noted that the procedure is currently computationally very demanding.
 
-See the "readme.txt" file in each folder for a more detailed overview of the codes in each folder.
+See the *readme.txt* -file in each folder for a more detailed overview of the codes in each folder.
 
 
 <h4>Installing</h4>
@@ -27,20 +27,20 @@ See the "readme.txt" file in each folder for a more detailed overview of the cod
 Using Linux is recommended. The code works at least on Ubuntu 16.04. Do the following steps to install the repository:
 
 * Install anaconda (https://docs.anaconda.com/anaconda/install/linux)
-* Set environment variables "export PATH=/.../anaconda3/bin:$PATH" and ´export PYTHONPATH=/.../anaconda3/bin:$PYTHONPATH´
+* Set environment variables `export PATH=/.../anaconda3/bin:$PATH` and `export PYTHONPATH=/.../anaconda3/bin:$PYTHONPATH`
 * Clone the repository
-* On terminal run conda config --add channels conda-forge
-* Create a conda environment from the file crowddynamics/environment.yml
-* On terminal run source activate optimal-guided-evacuation
-* On terminal, in folder crowddynamics, run pip install --editable .
-* Change to folder crowddynamics-qtgui and run pip install -r requirements.txt
-* Run conda install pyqt=4
-* Run conda install pyqtgraph==0.10.0
-* Run conda install scikit-fmm==0.0.9
-* Run pip install anytree==2.1.4
-* Run pip install --editable .
+* On terminal run `conda config --add channels conda-forge`
+* Create a conda environment from the file *crowddynamics/environment.yml*
+* On terminal run `source activate multiobj-guided-evac`
+* On terminal, in folder *crowddynamics*, `run pip install --editable .`
+* Change to folder *crowddynamics-qtgui* and run `pip install -r requirements.txt`
+* Run `conda install pyqt=4`
+* Run `conda install pyqtgraph==0.10.0`
+* Run `conda install scikit-fmm==0.0.9`
+* Run `pip install anytree==2.1.4`
+* Run `pip install --editable .`
 
-You might occur problems in installing some of the python packages. You can install these packages manually using conda install or pip install.
+You might occur problems in installing some of the python packages. You can install these packages manually using `conda install` or `pip install`.
 
 
 <h4>References</h4>
