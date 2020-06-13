@@ -1,6 +1,6 @@
 # multiobj-guided-evac
 
-Research code used in von Schantz, Ehtamo & Hostikka. (manuscript). <em>The minimum time evacuation of a crowd using rescue guides: a scenario-based approach</em>.
+Research code used in von Schantz, Ehtamo & Hostikka. (2020). The minimum time evacuation of a crowd using rescue guides: a scenario-based approach. <em>manuscript</em>.
 
 The manuscript presents a procedure for solving the minimum time evacuation using rescue guides when accounting for different behavioral scenarios. The problem is formulated as a bi-objective scenario optimization problem, and it is solved with a combined numerical simulation and genetic algorithm (GA) procedure. The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with numerical simulations. This repository is its implementation. The numerical simulation model is the physics-inspired agent-based social force model. The GA is the Nondominated Sorting Genetic Algorithm II (NSGA-II) [1,2]. It is suited for solving bi-objective optimization problems; this repository includes my own implementation of it.
 
