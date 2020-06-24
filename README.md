@@ -1,6 +1,6 @@
 # multiobj-guided-evac
 
-Research code used in the manuscript **von Schantz, A., Ehtamo, H., & Hostikka, S. (2020). Mean-CVaR optimal evacuation plan: a scenario analysis.**
+Research code used in the manuscript **von Schantz, A., Ehtamo, H., & Hostikka, S. (2020). Minimization of mean-CVaR evacuation time using rescue guides: a scenario-based approach.**
 
 The manuscript presents a procedure for solving the minimum time evacuation using rescue guides when accounting for different behavioral scenarios. The problem is formulated as a bi-objective scenario optimization problem, and it is solved with a combined numerical simulation and genetic algorithm (GA) procedure. The GA iteratively searches for the optimal evacuation plan, while the evacuation plan is evaluated with numerical simulations. This repository is its implementation. The numerical simulation model is the physics-inspired agent-based social force model. The GA is the Nondominated Sorting Genetic Algorithm II (NSGA-II) [2,3]. It is suited for solving bi-objective optimization problems; this repository includes my own implementation of it.
 
@@ -45,7 +45,7 @@ You might occur problems in installing some of the python packages. You can inst
 
 <h4>References</h4>
 
-[1] von Schantz, A., Ehtamo, H., & Hostikka, S. (2020). The minimum time evacuation of a crowd using rescue guides: a scenario-based approach. manuscript.
+[1] von Schantz, A., Ehtamo, H., & Hostikka, S. (2020). Minimization of mean-CVaR evacuation time using rescue guides: a scenario-based approach. manuscript.
 
 [2] Deb, K., Pratap, A., Agarwal, S., & Meyarivan, T. A. M. T. (2002). A fast and elitist multiobjective genetic algorithm: NSGA-II. IEEE transactions on evolutionary computation, 6(2), 182-197.
 
